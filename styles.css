@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #D2691E;
+}
+
+body * {
+    font-family: 'Lato', sans-serif;
+}
+
+#app {
+    width: 30%;
+}
+
+button {
+    height: 40px;
+    padding: 0 30px;
+    border: 0;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #3CB371;
+    color: white;
+}
+
+.contactForm {
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(220, 220, 220, .80);
+}
+
+.contactForm > input {
+    height: 40px;
+    width: 30%;
+    border: 0;
+    border-bottom: 2px solid #000;
+    margin: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.contactForm > input[type='email'] {
+    width: 50%;
+}
+
+.contactsList {
+    padding: 0px;
+}
+
+.contactItem {
+    position: relative;
+    padding: 10px 20px 20px 150px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(250, 248, 248, .95);
+}
+
+.contactImage {
+    position: absolute;
+    height: 80%;
+    left: 15px;
+    transform: translateY(-50%);
+    top: 50%;
+} 
