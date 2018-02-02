@@ -33,6 +33,5 @@ var ContactForm = React.createClass({
 */
 
       )
-    );
   }
 })

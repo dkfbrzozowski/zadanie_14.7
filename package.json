@@ -1,0 +1,24 @@
+{
+  "name": "zadanie_14.7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkfbrzozowski/zadanie_14.7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkfbrzozowski/zadanie_14.7/issues"
+  },
+  "homepage": "https://github.com/dkfbrzozowski/zadanie_14.7#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "http-server": "^0.11.1"
+  }
+}

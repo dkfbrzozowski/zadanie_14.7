@@ -33,11 +33,8 @@ var App = React.createClass({
         <Contacts items={contacts} />
       </div>
 
-//      React.createElement('div', {className: 'app'},
-//        React.createElement(ContactForm, {contact: contactForm}),
-//        React.createElement(Contacts, {items: contacts}, {})
+
       )
-    );
   }
 });
 
